@@ -96,7 +96,7 @@ const Bots = () => {
             {bot && (
                 <div className={styles.botDetails}>
                     <div className={styles.chartWrapper}>
-                        <Line data={data} options={options} />
+                        <Line height={220} data={data} options={options} />
                     </div>
                 </div>
             )}
