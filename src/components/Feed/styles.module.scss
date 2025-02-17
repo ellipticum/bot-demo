@@ -1,0 +1,31 @@
+.feed {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.column {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.name {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 16px;
+  color: rgb(84, 96, 118);
+}
+
+.value {
+  font-size: 24px;
+
+  &.small {
+    font-size: 16px;
+  }
+}
