@@ -1,5 +1,6 @@
 .wrapper {
   height: 100vh;
+  overflow: auto;
   width: 100%;
   background: center / cover no-repeat url('../../../public/images/raster/background.png');
 }
